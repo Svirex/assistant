@@ -1,0 +1,11 @@
+mongo:
+  server: localhost
+  port: 27017
+  db: test
+
+debug: true
+password_length: 8
+jwt:
+  access_expire_delta: 15
+  refresh_expire_delta: 43200
+  algorithm: HS256
