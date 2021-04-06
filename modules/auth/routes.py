@@ -4,7 +4,8 @@ from fastapi.security import OAuth2PasswordRequestForm
 from odmantic.exceptions import BaseEngineException, DocumentParsingError
 
 from db import db
-from .utils import get_user_by_username, hash_password, verify_password, create_tokens
+from .utils import get_user_by_username, hash_password, verify_password
+from utils.utils import create_tokens
 from .models import User
 from .schemas import Registration
 
